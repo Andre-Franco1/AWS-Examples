@@ -40,5 +40,5 @@ aws s3api put-object \
 --body myfile.txt \
 --checksum-algorithm="SHA1" \
 --checksum-sha1="648a6a6ffffdaa0badb23b8baf90b6168dd16b3a"
-# the precalculated value for the checksum is different from the value that aws calculates, so there is something wrong in this proccess of getting the value
+# the precalculated value for the checksum is different from the value that aws calculates, so there is something wrong in this process of getting the value
 ```
